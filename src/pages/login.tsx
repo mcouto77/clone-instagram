@@ -46,7 +46,7 @@ export default function Login({ onLogin }: LoginProps) {
 
       <TouchableOpacity style={styles.facebookContainer}>
         <FontAwesome5 name="facebook" size={25} color="#399fff" />
-        <Text style={styles.facebookText}>Continue como Marcelo Abbadia</Text>
+        <Text style={styles.facebookText}>Continue como Michel couto</Text>
       </TouchableOpacity>
 
       <View style={styles.divisor}>

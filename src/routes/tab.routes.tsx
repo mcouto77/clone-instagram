@@ -62,7 +62,7 @@ export function TabsRoutes() {
           tabBarIcon: ({ color }) => (
             <Image
               style={{ width: 30, height: 30, borderRadius: 50 }}
-              source={{ uri: "https://github.com/marceloabbadia.png" }}
+              source={{ uri: "https://github.com/mcouto77.png" }}
             />
           ),
         }}

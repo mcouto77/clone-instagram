@@ -11,19 +11,18 @@ import {
 
 import Bookmark from "../../assets/Bookmark.svg";
 import Comment from "../../assets/Comment.svg";
+import Heart from "../../assets/Heart.svg";
+import Share from "../../assets/Share.svg";
+import eueela1 from "../../assets/eueela1.png";
+import eueela2 from "../../assets/eueela2.png";
 import foto from "../../assets/foto.png";
 import foto2 from "../../assets/foto2.png";
 import foto3 from "../../assets/foto3.png";
 import foto4 from "../../assets/foto4.png";
-import Heart from "../../assets/Heart.svg";
-import image from "../../assets/image.png";
 import Logo from "../../assets/logo.svg";
 import Message from "../../assets/message.svg";
 import Points from "../../assets/points.svg";
-import Share from "../../assets/Share.svg";
 import Stroke from "../../assets/stroke.svg";
-import eueela1 from "../../assets/eueela1.png";
-import eueela2 from "../../assets/eueela2.png";
 
 const DATA = [
   {
@@ -110,9 +109,9 @@ export function Home() {
             <View style={styles.contentHeaderLeft}>
               <Image
                 style={styles.contentHeaderLeftImage}
-                source={{ uri: "https://github.com/marceloabbadia.png" }}
+                source={{ uri: "https://github.com/mcouto77.png" }}
               />
-              <Text style={styles.contentHeaderLeftText}>marceloabbadia</Text>
+              <Text style={styles.contentHeaderLeftText}>michelcouto</Text>
             </View>
             <Points />
           </View>
@@ -134,8 +133,8 @@ export function Home() {
               <Text
                 style={[styles.contentFooterText1, styles.contentFooterText]}
               >
-                marceloabbadia Aniversário de casamento comemorando da melhor
-                maneira, comendo!
+                michel couto festa de final de ano com a famila,
+                familia unida sempre
               </Text>
               <Text
                 style={[styles.contentFooterText2, styles.contentFooterText]}
@@ -160,7 +159,7 @@ export function Home() {
                   uri: "https://media.licdn.com/dms/image/D4D03AQE5_VhtwqF4Ug/profile-displayphoto-shrink_200_200/0/1679768629115?e=1692835200&v=beta&t=AnTEjOBE7WCm7ylzUPbnEVngnZh1G03IvD2z45ZWFqQ",
                 }}
               />
-              <Text style={styles.contentHeaderLeftText}>jessicaabbadia</Text>
+              <Text style={styles.contentHeaderLeftText}>Vanderleia</Text>
             </View>
             <Points />
           </View>
@@ -182,7 +181,7 @@ export function Home() {
               <Text
                 style={[styles.contentFooterText1, styles.contentFooterText]}
               >
-                jessicaabbadia Comendo massas, minha comida predileta!
+                Vanderleia Familia perfeita!
               </Text>
               <Text
                 style={[styles.contentFooterText2, styles.contentFooterText]}
